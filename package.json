@@ -1,0 +1,30 @@
+{
+  "name": "week11-challenge_note-taker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicajernigan/week11-challenge_note-taker.git"
+  },
+  "keywords": [
+    "note",
+    "taker"
+  ],
+  "author": "jessicajernigan",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/jessicajernigan/week11-challenge_note-taker/issues"
+  },
+  "homepage": "https://github.com/jessicajernigan/week11-challenge_note-taker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
