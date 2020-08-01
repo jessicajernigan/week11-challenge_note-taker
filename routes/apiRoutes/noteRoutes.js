@@ -10,16 +10,12 @@ router.get('/notes', (req, res) => {
 
 
 router.post('/notes', (req, res) => {
+  req.body.id = notes.length.toString();
 
-  let highestId = notes[notes.length - 1].id;
-
-  req.body.id = (parseInt(highestId) + 1).toString();
-
-  const note = createNote(req.body, notes);
-
-  res.json(note);
-  ;
-})
+    const note = createNote(req.body, notes);
+    res.json(note);
+  
+});
 
 
 module.exports = router;
