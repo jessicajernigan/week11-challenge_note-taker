@@ -14,7 +14,7 @@ router.post('/notes', (req, res) => {
 
     const note = createNote(req.body, notes);
     res.json(note);
-  
+
 });
 
 
